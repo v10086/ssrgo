@@ -1,0 +1,16 @@
+{
+    "mode": "local",
+    "udp_enable": false,
+    "server": "你的服务器IP地址",
+    "port": 8081,
+    "method": "rc4",
+    "password": "123456",
+    "protocol": "auth_aes128_md5",
+    "protocol_param": [
+        "1:password",
+        "2:password",
+        "3:password"
+    ],
+    "local_port": 1080,
+    "process_count": 5
+}
