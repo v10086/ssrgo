@@ -51,7 +51,7 @@ ssrgo 有两种运行模式：**server**（服务端）和 **local**（本地客
     "server": "0.0.0.0",
     "port": 8388,
     "method": "rc4",
-    "password": "abc@abc",
+    "password": "123456",
     "protocol": "auth_aes128_md5",
     "protocol_param": [
         "1:password",
@@ -119,7 +119,7 @@ ssrgo 有两种运行模式：**server**（服务端）和 **local**（本地客
 | `-server` | | 服务端地址（local 模式生效） | `127.0.0.1` |
 | `-port` | | 服务端监听端口 | `8080` |
 | `-method` | | 加密算法 | `rc4` |
-| `-password` | | 加密密码 | `1234@567` |
+| `-password` | | 加密密码 | `1234@567` 客户端和服务器端密码要一致 |
 | `-protocol` | | 协议类型 | `auth_aes128_md5` |
 | `-protocol-param` | | 协议参数（逗号分隔） | 无 |
 | `-local-port` | | 本地 SOCKS5 代理端口 | `1080` |
